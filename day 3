@@ -1,0 +1,226 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "956578da-b1c7-41b1-913c-5a2d0148ff77",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "even\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=90\n",
+    "if x%2==0:\n",
+    "   print(\"even\")\n",
+    "else:\n",
+    "   print(\"odd\")\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "e8209fa4-4eb7-423d-879a-b47ba729a7cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x>6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "9ce27b70-2035-48e4-9fd9-cc3c66f1523e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x<10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "b7dd8816-3519-4f35-a7c1-dc9e0b618c93",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x>10\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "685b7114-5c5e-4a90-b2da-ed79ce383575",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "a516edf2-bb11-43cf-8122-9f8bacb18728",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x%2==0\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "c164930e-30ed-4cc5-b2f0-721f799184f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "26.7"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x+6.7\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "d3c21cb3-ac27-4146-8e43-de9b9b76ebc6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "neg\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=-5.9\n",
+    "if x>0:\n",
+    "   print('pos')\n",
+    "elif x<0:\n",
+    "   print('neg')\n",
+    "else:\n",
+    "   print('zero')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "3104d261-ca90-49bc-a4cd-0bf0c1974f98",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "neg\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=-10\n",
+    "if x>0:\n",
+    "  print('pos')\n",
+    "  if x>10:\n",
+    "    print('M')\n",
+    "  elif x<10:\n",
+    "    print('K')\n",
+    "  else:\n",
+    "    print('T')\n",
+    "elif x<0:\n",
+    "  print('neg')\n",
+    "  if x<-20:\n",
+    "     print('Q')\n",
+    "  elif x>-10:\n",
+    "     print('C')\n",
+    "else:\n",
+    "   print('zero')"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
